@@ -1,0 +1,1 @@
+C:\dev\xamarin\TripXpense\TripXpense\TripXpense.Android\bin\Debug\TripXpense.Android.dll

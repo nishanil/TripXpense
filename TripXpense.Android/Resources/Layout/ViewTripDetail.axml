@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/viewTripDetailscrollView">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/viewTripDetailLayout">
+        <TextView
+            android:text="Goa trip"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0099CC"
+            android:id="@+id/viewTripDetailTextViewTripName" />
+        <TextView
+            android:text="An Outing with Family and Friends"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:id="@+id/viewTripDetailTextViewDesc" />
+        <TextView
+            android:text="from jun 6 to jun 8"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFBB33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewTripDetailTextViewTripDate" />
+        <TextView
+            android:text="Budget: 2000"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewTripDetailTextViewBudget"
+            android:textColor="#FF267F00" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/white"
+            android:layout_marginTop="2dip" />
+        <TextView
+            android:text="Expenses"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textExpenses"
+            android:textColor="@android:color/white" />
+        <ListView
+            android:id="@+id/viewTripDetailListViewExpenses"
+            android:layout_width="fill_parent"
+            android:layout_height="210dip" />
+        <TextView
+            android:text="Total Expense: 200"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/viewTripDetailTotalExpense"
+            android:textColor="@android:color/white" />
+        <Button
+            android:text="add expense"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/viewTripDetaiButtonAdd"
+            android:layout_marginTop="2dip" />
+    </LinearLayout>
+</ScrollView>

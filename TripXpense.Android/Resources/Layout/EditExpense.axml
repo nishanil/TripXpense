@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/editExpenseLayout">
+        <TextView
+            android:text="Goa trip"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#0099CC"
+            android:id="@+id/editExpenseTextViewTripName" />
+        <TextView
+            android:text="An Outing with Family and Friends"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:id="@+id/editExpenseTextViewTripDesc" />
+        <TextView
+            android:text="from jun 6 to jun 8"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFBB33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editExpenseTextViewpTripDate" />
+        <TextView
+            android:text="Budget: 2000"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/editExpenseTextViewTripBudget"
+            android:textColor="#FF267F00" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white"
+            android:layout_marginTop="2dip" />
+        <TextView
+            android:text="Expenses"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/textExpenses"
+            android:textColor="@android:color/white" />
+        <TextView
+            android:text="Expense Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editExpenseTextViewTitle" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editExpenseEditTextTitle" />
+        <TextView
+            android:text="Spent On"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editExpenseTextViewSpentOn" />
+        <DatePicker
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editExpenseDatePickerDate" />
+        <TextView
+            android:text="Amount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editExpenseTextViewAmount" />
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editExpenseEditTextAmount" />
+        <Button
+            android:text="save expense"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/editExpenseButtonSave"
+            android:layout_marginTop="2dip" />
+        <Button
+            android:text="delete expense"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/editExpenseButtonDelete"
+            android:layout_marginTop="2dip" />
+    </LinearLayout>
+</ScrollView>

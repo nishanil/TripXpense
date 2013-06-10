@@ -1,0 +1,6 @@
+TripXpense.Android.Screens.EditExpenseScreen;tripxpense.android.screens.EditExpenseScreen
+TripXpense.Android.Screens.TripDetail.ViewTripDetailExpenseListAdapter;tripxpense.android.screens.tripdetail.ViewTripDetailExpenseListAdapter
+TripXpense.Android.Screens.EditTripScreen;tripxpense.android.screens.EditTripScreen
+TripXpense.Android.Screens.HomeScreen;tripxpense.android.screens.HomeScreen
+TripXpense.Android.Screens.ViewTripDetailScreen;tripxpense.android.screens.ViewTripDetailScreen
+TripXpense.Android.Screens.HomeTripsListAdapter;tripxpense.android.screens.HomeTripsListAdapter

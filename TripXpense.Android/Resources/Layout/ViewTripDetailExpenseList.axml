@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginLeft="10dip"
+    android:layout_marginTop="10dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/viewTripDetailExpenseListLayout">
+    <TextView
+        android:layout_marginLeft="10dip"
+        android:text="99/99/9999"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewTripDetailExpenseDate"
+        android:textColor="#FFBB33" />
+    <TextView
+        android:text="Flight expense"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginLeft="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewTripDetailExpenseName" />
+    <TextView
+        android:layout_marginLeft="10dip"
+        android:text="100.00"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewTripDetailExpenseAmount" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+C:\dev\xamarin\TripXpense\TripXpense\TripXpense.Core\bin\Debug\TripXpense.Core.dll
+C:\dev\xamarin\TripXpense\TripXpense\TripXpense.Core\bin\Debug\TripXpense.Core.pdb
+C:\dev\xamarin\TripXpense\TripXpense\TripXpense.Core\obj\Debug\TripXpense.Core.dll
+C:\dev\xamarin\TripXpense\TripXpense\TripXpense.Core\obj\Debug\TripXpense.Core.pdb
