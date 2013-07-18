@@ -1,12 +1,33 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TripXpense.Android\Screens\TripsScreen.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TripXpense.iPhone/Screens/HomeScreenController.cs">
     <Files>
-      <File FileName="TripXpense.Android\Screens\TripsScreen.cs" Line="19" Column="64" />
+      <File FileName="TripXpense.iPhone/Screens/EditTripScreen.cs" Line="1" Column="1" />
+      <File FileName="../../Downloads/TextView02/Main.cs" Line="1" Column="1" />
+      <File FileName="TripXpense.Core/DataLayer/TripXmlDatabase.cs" Line="1" Column="1" />
+      <File FileName="TripXpense.Core/Repository/TripXmlRepository.cs" Line="1" Column="1" />
+      <File FileName="TripXpense.iPhone/Screens/HomeScreen.cs" Line="1" Column="1" />
+      <File FileName="TripXpense.iPhone/Screens/HomeScreenController.cs" Line="40" Column="1" />
+      <File FileName="TripXpense.iPhone/Main.cs" Line="1" Column="1" />
+      <File FileName="TripXpense.iPhone/AppDelegate.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="TripXpense.iPhone" expanded="True">
+            <Node name="Repository" selected="True" />
+            <Node name="Screens" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Nish/Source/TripXpense/TripXpense.iPhone/Screens/EditTripScreen.cs" line="150" column="1" />
+      <Breakpoint file="/Users/Nish/Source/TripXpense/TripXpense.iPhone/Screens/HomeScreenController.cs" line="61" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TripXpense.Android AndroidDeviceId-Debug="04df9305a15c35e4" />
 </Properties>

@@ -4,7 +4,12 @@
   <application android:label="TripXpense" android:name="mono.android.app.Application" android:debuggable="true">
     <activity android:label="Edit Expenses" android:name="tripxpense.android.screens.EditExpenseScreen" />
     <activity android:label="Edit Trip Details" android:name="tripxpense.android.screens.EditTripScreen" />
-    <activity android:icon="@drawable/icon" android:label="TripXpense" android:name="tripxpense.android.screens.HomeScreen" />
+    <activity android:icon="@drawable/icon" android:label="TripXpense" android:name="tripxpense.android.screens.HomeScreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
     <activity android:label="Trip Expenses" android:name="tripxpense.android.screens.ViewTripDetailScreen" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.nnish.TripXpense.mono.MonoRuntimeProvider.__mono_init__" />
     <receiver android:name="mono.android.Seppuku">
@@ -13,12 +18,6 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.nnish.TripXpense" />
       </intent-filter>
     </receiver>
-    <activity android:icon="@drawable/icon" android:label="TripXpense" android:name="com.nnish.tripxpense.TrialSplashScreenb784c0b6d90041f5aabfbd8eeaf06d04" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
   </application>
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />

@@ -1,1 +1,1 @@
-C:\dev\xamarin\TripXpense\TripXpense\TripXpense.Android\bin\Debug\TripXpense.Android.dll
+/Users/Nish/Source/TripXpense/TripXpense.Android/bin/Debug/TripXpense.Android.dll
